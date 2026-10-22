@@ -202,19 +202,7 @@
         </div>
 
         <div class="flex items-center gap-2">
-            <button
-                onclick={() => (soundEnabled = !soundEnabled)}
-                class="p-2.5 rounded-xl bg-stone-900 border border-stone-800 hover:bg-stone-800 text-stone-300 transition-all flex items-center gap-2 text-xs font-medium cursor-pointer shadow-sm active:scale-95"
-                title="Toggle Page Turn Sound"
-            >
-                {#if soundEnabled}
-                    <Volume2 class="w-4 h-4 text-amber-400" />
-                    <span class="hidden sm:inline">Sound On</span>
-                {:else}
-                    <VolumeX class="w-4 h-4 text-stone-500" />
-                    <span class="hidden sm:inline">Sound Off</span>
-                {/if}
-            </button>
+            
         </div>
     </header>
 
@@ -377,7 +365,7 @@
 
         <div class="flex items-center gap-2 text-xs text-stone-500">
             <Info class="w-3.5 h-3.5" />
-            <span>Pure Visual 3D Página</span>
+            <span>Side B</span>
         </div>
     </footer>
 </div>
