@@ -287,7 +287,7 @@
                                     <div
                                         class="absolute bottom-3 left-3 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md text-[10px] tracking-widest uppercase text-stone-300 border border-white/10 z-10"
                                     >
-                                        Plate {idx * 2 + 1}
+                                        Plana {idx * 2 + 1}
                                     </div>
                                 </div>
                             </div>
@@ -311,7 +311,7 @@
                                     <div
                                         class="absolute bottom-3 left-3 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md text-[10px] tracking-widest uppercase text-stone-300 border border-white/10 z-10"
                                     >
-                                        Plate {idx * 2 + 2}
+                                        Plana {idx * 2 + 2}
                                     </div>
                                 </div>
                             </div>
