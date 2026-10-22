@@ -188,9 +188,9 @@
                 <h1
                     class="text-sm font-bold tracking-widest text-stone-200 uppercase"
                 >
-                    Vellum & Form
+                    SIDE B
                 </h1>
-                <p class="text-xs text-stone-400">Virtual Image Gallery</p>
+                <p class="text-xs text-stone-400">Revista Virtual</p>
             </div>
         </div>
 
@@ -198,7 +198,7 @@
             class="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-full bg-stone-900/80 border border-stone-800 text-xs text-stone-300"
         >
             <Sparkles class="w-3.5 h-3.5 text-amber-400" />
-            <span>Use <b>← / →</b> arrow keys or swipe to turn spreads</span>
+            <span>Usa <b>← / →</b> flechas de dirección o swipe izquierda / derecha</span>
         </div>
 
         <div class="flex items-center gap-2">
@@ -329,10 +329,10 @@
         <div class="flex items-center gap-2 text-xs text-stone-400">
             <Layers class="w-4 h-4 text-amber-400" />
             <span
-                >Spread <strong class="text-stone-200"
+                >Página <strong class="text-stone-200"
                     >{currentIndex + 1}</strong
                 >
-                of <strong class="text-stone-200">{pages.length}</strong></span
+                de <strong class="text-stone-200">{pages.length}</strong></span
             >
         </div>
 
@@ -344,7 +344,7 @@
                 class="px-4 py-2.5 rounded-xl bg-stone-900 border border-stone-800 hover:bg-stone-800 disabled:opacity-40 disabled:cursor-not-allowed text-stone-200 text-xs font-medium transition-all flex items-center gap-2 cursor-pointer shadow-md active:scale-95"
             >
                 <ChevronLeft class="w-4 h-4" />
-                <span>Previous Spread</span>
+                <span>Página Previa</span>
             </button>
 
             <div class="flex gap-1.5 px-2">
@@ -370,14 +370,14 @@
                 disabled={currentIndex === pages.length - 1 || isAnimating}
                 class="px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 disabled:opacity-40 disabled:cursor-not-allowed text-xs font-semibold transition-all flex items-center gap-2 cursor-pointer shadow-lg shadow-amber-500/10 active:scale-95"
             >
-                <span>Next Spread</span>
+                <span>Siguiente Página</span>
                 <ChevronRight class="w-4 h-4" />
             </button>
         </div>
 
         <div class="flex items-center gap-2 text-xs text-stone-500">
             <Info class="w-3.5 h-3.5" />
-            <span>Pure Visual 3D Spread</span>
+            <span>Pure Visual 3D Página</span>
         </div>
     </footer>
 </div>
