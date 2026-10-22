@@ -21,7 +21,7 @@
         {
             id: 1,
             image: "/1.png",
-            bgGradient: "from-amber-950 via-stone-900 to-zinc-950",
+            bgGradient: "from-purple-950 via-stone-900 to-zinc-950",
         },
         {
             id: 2,
@@ -168,7 +168,7 @@
 >
     <!-- Ambient Background Glows -->
     <div
-        class="absolute top-0 left-1/4 w-96 h-96 bg-amber-600/10 rounded-full blur-3xl pointer-events-none"
+        class="absolute top-0 left-1/4 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl pointer-events-none"
     ></div>
     <div
         class="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none"
@@ -180,7 +180,7 @@
     >
         <div class="flex items-center gap-3">
             <div
-                class="p-2 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-400"
+                class="p-2 rounded-xl bg-purple-500/10 border border-purple-500/20 text-purple-400"
             >
                 <BookOpen class="w-5 h-5" />
             </div>
@@ -197,7 +197,7 @@
         <div
             class="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-full bg-stone-900/80 border border-stone-800 text-xs text-stone-300"
         >
-            <Sparkles class="w-3.5 h-3.5 text-amber-400" />
+            <Sparkles class="w-3.5 h-3.5 text-purple-400" />
             <span>Usa <b>← / →</b> flechas de dirección o swipe izquierda / derecha</span>
         </div>
 
@@ -262,7 +262,7 @@
                                 class="w-full h-full flex flex-col justify-center items-center relative group min-h-0"
                             >
                                 <div
-                                    class="absolute -inset-2 bg-gradient-to-r from-amber-500/10 to-transparent rounded-2xl blur-lg opacity-50 group-hover:opacity-100 transition duration-500"
+                                    class="absolute -inset-2 bg-gradient-to-r from-purple-500/10 to-transparent rounded-2xl blur-lg opacity-50 group-hover:opacity-100 transition duration-500"
                                 ></div>
                                 <div
                                     class="relative rounded-xl overflow-hidden shadow-2xl border border-white/10 w-full h-full flex items-center justify-center bg-stone-900/50 p-2 min-h-0"
@@ -285,7 +285,7 @@
                                 class="w-full h-full flex flex-col justify-center items-center relative group min-h-0"
                             >
                                 <div
-                                    class="absolute -inset-2 bg-gradient-to-r from-transparent to-amber-500/10 rounded-2xl blur-lg opacity-50 group-hover:opacity-100 transition duration-500"
+                                    class="absolute -inset-2 bg-gradient-to-r from-transparent to-purple-500/10 rounded-2xl blur-lg opacity-50 group-hover:opacity-100 transition duration-500"
                                 ></div>
                                 <div
                                     class="relative rounded-xl overflow-hidden shadow-2xl border border-white/10 w-full h-full flex items-center justify-center bg-stone-900/50 p-2 min-h-0"
@@ -315,7 +315,7 @@
         class="w-full px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-stone-800/60 backdrop-blur-md bg-stone-950/80 z-20"
     >
         <div class="flex items-center gap-2 text-xs text-stone-400">
-            <Layers class="w-4 h-4 text-amber-400" />
+            <Layers class="w-4 h-4 text-purple-400" />
             <span
                 >Página <strong class="text-stone-200"
                     >{currentIndex + 1}</strong
@@ -346,7 +346,7 @@
                         }}
                         class="w-2.5 h-2.5 rounded-full transition-all cursor-pointer {pIdx ===
                         currentIndex
-                            ? 'bg-amber-400 w-6'
+                            ? 'bg-purple-400 w-6'
                             : 'bg-stone-800 hover:bg-stone-700'}"
                         title="Go to spread {pIdx + 1}"
                     ></button>
@@ -356,7 +356,7 @@
             <button
                 onclick={goToNext}
                 disabled={currentIndex === pages.length - 1 || isAnimating}
-                class="px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 disabled:opacity-40 disabled:cursor-not-allowed text-xs font-semibold transition-all flex items-center gap-2 cursor-pointer shadow-lg shadow-amber-500/10 active:scale-95"
+                class="px-4 py-2.5 rounded-xl bg-purple-500 hover:bg-purple-400 text-stone-950 disabled:opacity-40 disabled:cursor-not-allowed text-xs font-semibold transition-all flex items-center gap-2 cursor-pointer shadow-lg shadow-purple-500/10 active:scale-95"
             >
                 <span>Siguiente Página</span>
                 <ChevronRight class="w-4 h-4" />
